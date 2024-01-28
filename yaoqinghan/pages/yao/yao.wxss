@@ -1,0 +1,52 @@
+/* pages/yao/yao.wxss */
+page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .bg{
+    width: 100vw;
+    height: 100vh;
+  }
+  .content{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content-gif{
+    width: 20vh;
+    height: 19vh;
+    margin-bottom: 5vh;
+    margin-top: 10vh;
+  }
+  .content-info{
+    text-align: center;
+  }
+  .content-zixun{
+    position: relative;
+    margin-top: 14vh;
+    right:-23vh;
+  }
+  .content-zixun>image{
+    position: absolute;
+    width: 3vh;
+    height: 3vh;
+    top:1vh;
+    right: -3vh;
+
+  }
+  .biaozhi{
+    position: absolute;
+    width: 60vw;
+    height: 60vw;
+    top:4vh;
+    right: 30vh;
+  }
+  .page-section{
+    margin-bottom: 20rpx;
+    position: fixed;
+  }
+  

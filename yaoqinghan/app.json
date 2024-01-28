@@ -1,0 +1,51 @@
+{
+  "pages": [
+  "pages/yao/yao",
+  "pages/map/map",
+  "pages/index/index",
+  "pages/video/video",
+  "pages/my/my",
+  "pages/detail/detail",
+  "pages/indexx/index"
+ 
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ff0000",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "20周年，邀您同庆"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/yao/yao",
+        "text": "🎉",
+        "iconPath": "images/图片素材-011装饰_decoration庆祝节日活动道具元素图标/011-decoration.png",
+        "selectedIconPath": "images/011.png"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "text": "🚗✈🚲",
+        "iconPath": "images/自动导航小地图(autonavi minimap)_爱给网_aigei_com.png",
+        "selectedIconPath": "images/自动导航小地图(autonavi minimap)_爱给网_aigei_com.png"
+      },
+      {
+      "pagePath": "pages/index/index",
+      "text": "嘉😍新闻",
+      "iconPath": "images/新闻(news)_爱给网_aigei_com.png",
+      "selectedIconPath": "images/新闻(news)_爱给网_aigei_com.png"
+    },
+    {
+      "pagePath": "pages/video/video",
+      "text": "嘉😚影像",
+      "iconPath": "images/影像摄影_爱给网_aigei_com.png",
+      "selectedIconPath": "images/影像摄影_爱给网_aigei_com.png"
+    },
+    {
+      "pagePath": "pages/my/my",
+      "text": "嘉🤭你",
+      "iconPath": "images/my.png",
+      "selectedIconPath": "images/my_blue.png"
+    }
+  ]
+  }
+}

@@ -1,0 +1,10 @@
+.bg{
+  width: 100vw;
+  height: 100vh;
+}
+.a66 {
+  margin: 30px;
+  text-align: center;
+  position: fixed;
+  top:8vh;
+}

@@ -1,0 +1,18 @@
+<!--pages/video/video.wxml-->
+<!-- 视频播放器 -->
+<video id="myVideo" src="{{src}}" controls autoplay></video>
+
+<!-- 弹幕区域 -->
+<view class="danmuArea">
+	<input type="text" placeholder="请输入弹幕内容" bindinput="getDanmu"/>
+	<button bindtap="sendDanmu">发送弹幕</button>
+</view>
+
+<text class="duoduo">更多视频</text>
+<!-- 视频列表区域 -->
+<view class="videoList">
+	<view class="videoBar" wx:for="{{list}}" wx:key="id" bindtap="playVideo" data-url="{{item.videoUrl}}">
+		<image src="{{item.src}}" mode="widthFix"/>
+		<text>{{item.title}}</text>
+	</view>
+</view>

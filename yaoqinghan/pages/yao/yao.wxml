@@ -1,0 +1,21 @@
+<!--pages/yao/yao.wxml-->
+<image class="bg" src="/images/bj2.jpg" />
+<view class="content">
+  <!--电话信息-->
+  <view class="content-info">
+    <view class="content-zixun" bindtap="callGroom">
+      <image src="/images/phone.png" />
+      <view>详情咨询</view>
+    </view>
+  </view>
+</view>
+
+<image class="biaozhi" src="/images/校庆标志(已处理) (1).jpg" />
+<view class="page-section">
+    <view class="weui-cells__title">请留下你的祝福吧</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" placeholder-style="color:#F76260" placeholder="我希望。。。" />
+      </view>
+    </view>
+  </view>  

@@ -1,0 +1,29 @@
+
+<view class="a66">
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="section section_gap">
+    <view class="section__title">您是否会来参加校庆？</view>
+    <radio-group name="radio-group">
+      <label><radio value="radio1"/>来</label>
+      <label><radio value="radio2"/>不来</label>
+    </radio-group>
+  </view>
+  <view class="section section_gap">
+    <view class="section__title">您可能来的时间</view>
+    <checkbox-group name="checkbox">
+      <label><checkbox value="checkbox1"/>10 月 20 日    </label>
+      <label><checkbox value="checkbox2"/>10 月 21 日    </label>
+      <label><checkbox value="checkbox2"/> 10 月 22 日</label>
+    </checkbox-group>
+  </view>
+  <view class="section">
+    <view class="section__title">您有什么建议吗</view>
+    <input name="input" placeholder="please input here" />
+  </view>
+  <view class="btn-area">
+    <button formType="submit" bindtap="goBackWenJuan">我填完啦，提交！</button>
+    <button formType="reset">我填错啦，重来！</button>
+  </view>
+</form>
+</view>
+<image class="bg" src="/images/bj4.jpg" />
